@@ -8,7 +8,7 @@
   </head>
   <body>
     <form action="submit" class="input-form">
-      <input type="text" id="city-input" placeholder="Enter city" />
+      <input type="text" id="city-input" placeholder="Enter your city" />
       <button type="submit">Get Weather</button>
     </form>
     <div class="container">
@@ -20,23 +20,25 @@
       <div class="temp-desc">
         <h1 id="displayTemp">26.17℃</h1>
         <span class="dash">---------</span>
-        <div class="desc-temp">
+        <div class="desc-minmax">
           <h3 id="weatherDescription">Overcast Clouds</h3>
           <h3 id="displayMinMax">25℃/28℃</h3>
         </div>
       </div>
       <!-- <p id="weatherEmoji">🌤️</p> -->
-      <div class="coordinates-cont">
-        <i class="fa-regular fas fa-location-arrow"></i>
-        <p id="coordinates">Lon: 80.27 <br />Lat: 13.08</p>
-      </div>
-      <div class="wind-cont">
-        <i class="fa-regular fas fa-wind"></i>
-        <p id="wind">2.75 kmph</p>
-      </div>
-      <div class="humidity-cont">
-        <i class="fa-regular fas fa-cloud-rain"></i>
-        <p id="humidity">73%</p>
+      <div class="data-cont">
+        <div class="coordinates-cont">
+          <i class="fa-regular fas fa-location-arrow"></i>
+          <p id="coordinates">Lon: 80.27 <br />Lat: 13.08</p>
+        </div>
+        <div class="wind-cont">
+          <i class="fa-regular fas fa-wind"></i>
+          <p id="wind">2.75 kmph</p>
+        </div>
+        <div class="humidity-cont">
+          <i class="fa-regular fas fa-cloud-rain"></i>
+          <p id="humidity">73%</p>
+        </div>
       </div>
     </div>
 

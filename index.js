@@ -1,5 +1,5 @@
 const apiKey = "c2e1022d0a71a8f69369dfc538456e5b";
-const city = "Chennai";
+const city = "Mundra";
 
 async function fetchWeatherData(){
     const urlWithApiKey = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
