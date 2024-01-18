@@ -1,4 +1,4 @@
-![image](https://github.com/Akshansh029/Weather-site/assets/145496594/99d70bf4-4da0-4472-a014-00ca3252cbb6)
+![image](https://github.com/Akshansh029/Weather-site/assets/145496594/ac036cb6-23f8-4933-876a-4621b142dd2b)
 
 # Demo🔗:- https://ak-weather-site.netlify.app/
 
