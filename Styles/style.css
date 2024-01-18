@@ -42,6 +42,12 @@ button{
     background-color: rgb(106, 178, 255);
     border-radius: 5px;
 }
+.errorMsg{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 600;
+    font-family: var(--poppins);
+}
 .container{
     min-width: 320px;
     max-width: 340px;
@@ -54,11 +60,12 @@ button{
     gap: 3rem;
     font-family: var(--poppins);
     border-radius: 15px;
-    background-image: linear-gradient(to bottom, rgba(9, 9, 9, 0.1), rgba(9, 9, 9, 0.1)), url('../Images/backiee-118470-portrait.jpg');
+    background-image: linear-gradient(to bottom, rgba(9, 9, 9, 0.15), rgba(9, 9, 9, 0.15)), url('../Images/backiee-118470-portrait.jpg');
     background-size: cover;
     background-position: center;
     color: rgb(244, 244, 244);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
 }
 .appHeading{
     font-size: 1rem;
@@ -87,6 +94,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     position: relative;
     top: -5px;
 }
