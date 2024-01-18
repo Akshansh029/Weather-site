@@ -39,11 +39,15 @@ input::placeholder{
 }
 button{
     font-size: 1.2rem;
-    padding: 0.15rem 0.4rem;
+    padding: 0.15rem 0.7rem;
     font-family: var(--segoe);
     font-weight: 600;
-    background-color: rgb(106, 178, 255);
+    background-color: rgb(87, 168, 255);
     border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(36, 142, 255);
 }
 .errorMsg{
     font-size: 1.5rem;
@@ -129,4 +133,12 @@ button{
 }
 .coordinates-cont p, .wind-cont p, .humidity-cont p{
     font-size: 0.8rem;
+}
+
+@media (max-width: 450px){
+    .container{
+        min-width: 300px;
+        max-width: 320px;
+        gap: 1.5rem;
+    }
 }

@@ -10,7 +10,6 @@ let humidity = document.getElementById("humidity");
 let date = document.getElementById("dateToday");
 let temp = document.getElementById("displayTemp");
 const apiKey = "c2e1022d0a71a8f69369dfc538456e5b";
-// const city = "Paris";
 
 const week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -59,6 +58,7 @@ async function displayWeatherInfo(city){
     humidity.textContent = `${data.main.humidity}%`
     }
     catch(error){
+        displayError(error.message);
         console.log(error);
     }
 } 
