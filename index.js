@@ -25,8 +25,12 @@ weatherForm.addEventListener("submit", async event => {
     event.preventDefault();
 
     if(city == ""){
-        displayError("Please enter a valid city name");
+        // displayError("Please enter a valid city name");
     }
+    // else if(!response.ok){
+    //     errorMsg.style.display = "block";
+    //     errorMsg.textContent = "Please enter a valid city name"; 
+    // }
     else{
         errorMsg.style.display = "none";
     }
@@ -58,7 +62,7 @@ async function displayWeatherInfo(city){
     humidity.textContent = `${data.main.humidity}%`
     }
     catch(error){
-        displayError(error.message);
+        displayError(error);
         console.log(error);
     }
 } 
